@@ -1,0 +1,690 @@
+[
+    {
+        "id": 1,
+        "nome": "descrizione",
+        "descrizione": "descrizione per testo",
+        "acronimo": "DES_",
+        "nota": "descrizione per testo",
+        "group": 1
+    },
+    {
+        "id": 2,
+        "nome": "codice_alfanumerico",
+        "descrizione": " codice alfanumerico",
+        "acronimo": "COA_",
+        "nota": "codice alfanumerico composto da un massimo di venti caratteri",
+        "group": 7
+    },
+    {
+        "id": 3,
+        "nome": "pk",
+        "descrizione": "Campo serial",
+        "acronimo": "PK_",
+        "nota": "primary key: chiave primaria della tabella, \"group\": normalmente è il campo serial",
+        "group": 4
+    },
+    {
+        "id": 4,
+        "nome": "fk",
+        "descrizione": "Chiave esterna",
+        "acronimo": "FK_",
+        "nota": "foreign key: chiave di collegamento tra due tabelle testa della stessa procedura",
+        "group": 4
+    },
+    {
+        "id": 5,
+        "nome": "cognome",
+        "descrizione": "Cognome",
+        "acronimo": "COG_",
+        "nota": "cognome",
+        "group": 5
+    },
+    {
+        "id": 6,
+        "nome": "nome",
+        "descrizione": "Nome",
+        "acronimo": "NOM_",
+        "nota": "nome",
+        "group": 5
+    },
+    {
+        "id": 7,
+        "nome": "importo",
+        "descrizione": " ",
+        "acronimo": "IMP_",
+        "nota": "ammontare di una spesa",
+        "group": 7
+    },
+    {
+        "id": 8,
+        "nome": "quantità",
+        "descrizione": " ",
+        "acronimo": "QNT_",
+        "nota": "proprietà di tutto ciò che può essere misurato, \"group\": definito nelle sue dimensioni",
+        "group": 2
+    },
+    {
+        "id": 9,
+        "nome": "numero",
+        "descrizione": " ",
+        "acronimo": "NUM_",
+        "nota": "numero",
+        "group": 7
+    },
+    {
+        "id": 10,
+        "nome": "codice_numerico",
+        "descrizione": " ",
+        "acronimo": "CON_",
+        "nota": "codice numerico composto da un massimo di dieci cifre",
+        "group": 7
+    },
+    {
+        "id": 11,
+        "nome": "altro_blob",
+        "descrizione": " ",
+        "acronimo": "BLB_",
+        "nota": "per file non di testo (es: immagini). La scelta del parametro 0 o 1 dipende dal tipo di file usato. Esempio: se il file è un PDF/immagine  serve 1 sul campo decimale",
+        "group": 3
+    },
+    {
+        "id": 12,
+        "nome": "testo_blob",
+        "descrizione": "campo logico per testo",
+        "acronimo": "TXT_",
+        "nota": "per i file di testo",
+        "group": 3
+    },
+    {
+        "id": 13,
+        "nome": "ragione_sociale",
+        "descrizione": " ",
+        "acronimo": "RAG_",
+        "nota": "nome di una società di persone, \"group\": che deve obbligatoriamente contenere il nome di uno o più soci con l\"indicazione del rapporto sociale",
+        "group": 5
+    },
+    {
+        "id": 14,
+        "nome": "codice_fiscale",
+        "descrizione": " ",
+        "acronimo": "CF_",
+        "nota": "codice alfanumerico di sedici caratteri che serve a identificare in modo univoco ai fini fiscali e amministrativi i cittadini o le associazioni",
+        "group": 5
+    },
+    {
+        "id": 15,
+        "nome": "email",
+        "descrizione": " ",
+        "acronimo": "MAI_",
+        "nota": "indirizzo di posta elettronica",
+        "group": 5
+    },
+    {
+        "id": 16,
+        "nome": "telefono",
+        "descrizione": " ",
+        "acronimo": "TEL_",
+        "nota": "numero telefonico. Sono compresi anche i caratteri separatori",
+        "group": 5
+    },
+    {
+        "id": 17,
+        "nome": "cellulare",
+        "descrizione": " ",
+        "acronimo": "CEL_",
+        "nota": "numero telefonico di un dispositivo mobile. Sono compresi anche i caratteri separatori",
+        "group": 5
+    },
+    {
+        "id": 18,
+        "nome": "fax",
+        "descrizione": " ",
+        "acronimo": "FAX_",
+        "nota": "numero telefonico del servizio fax",
+        "group": 5
+    },
+    {
+        "id": 19,
+        "nome": "partita_iva",
+        "descrizione": " ",
+        "acronimo": "PI_",
+        "nota": "sequenza di undici cifre che identifica univocamente un soggetto che esercita un\"attività rilevante ai fini dell\"imposizione fiscale indiretta",
+        "group": 5
+    },
+    {
+        "id": 20,
+        "nome": "via",
+        "descrizione": " ",
+        "acronimo": "VIA_",
+        "nota": "denominazione della via",
+        "group": 6
+    },
+    {
+        "id": 22,
+        "nome": "cap_italia",
+        "descrizione": " ",
+        "acronimo": "CAP_",
+        "nota": "codice composto da cinque caratteri numerici che identifica le località ai fini dell\"inoltro meccanografico della posta",
+        "group": 6
+    },
+    {
+        "id": 28,
+        "nome": "sigla_provincia",
+        "descrizione": " ",
+        "acronimo": "SPV_",
+        "nota": "codice alfanumerico, \"group\": composto da due caratteri, che identifica la provincia",
+        "group": 6
+    },
+    {
+        "id": 29,
+        "nome": "progressivo",
+        "descrizione": " ",
+        "acronimo": "PRG_",
+        "nota": "numero univoco crescente che per qualche motivo è diverso dal serial e ricomincia da uno",
+        "group": 9
+    },
+    {
+        "id": 30,
+        "nome": "percentuale",
+        "descrizione": " ",
+        "acronimo": "PER_",
+        "nota": "il codice screm varia a seconda se occorre gestire i decimali o meno",
+        "group": 7
+    },
+    {
+        "id": 31,
+        "nome": "data",
+        "descrizione": " ",
+        "acronimo": "DAT_",
+        "nota": "data da 8 (gg/mm/aaaa)",
+        "group": 8
+    },
+    {
+        "id": 32,
+        "nome": "anno",
+        "descrizione": " ",
+        "acronimo": "ANN_",
+        "nota": "campo numerico che indica l\"anno (es.:2013)",
+        "group": 8
+    },
+    {
+        "id": 33,
+        "nome": "mese",
+        "descrizione": " ",
+        "acronimo": "MES_",
+        "nota": "campo numerico che indica il numero del mese nel calendario (da 1 a 12).",
+        "group": 8
+    },
+    {
+        "id": 34,
+        "nome": "giorno",
+        "descrizione": " ",
+        "acronimo": "GIO_",
+        "nota": "campo numerico che identifica il numero del giorno nel calendario da (1 a 31)",
+        "group": 8
+    },
+    {
+        "id": 35,
+        "nome": "passw",
+        "descrizione": " ",
+        "acronimo": "PSW_",
+        "nota": "l\"inserimento dei caratteri in questo campo viene nascosto con degli asterischi",
+        "group": 10
+    },
+    {
+        "id": 36,
+        "nome": "sigla_procedura",
+        "descrizione": " ",
+        "acronimo": "SGP_",
+        "nota": "codice alfanumerico, \"group\": composto da due caratteri, che identifica la procedura Halley",
+        "group": 11
+    },
+    {
+        "id": 38,
+        "nome": "nota_corta",
+        "descrizione": " ",
+        "acronimo": "NTC_",
+        "nota": "annotazione breve composta da una o più righe (invio consentito). La nota deve essere mirata, \"group\": deve essere specificato ciò che l`utente deve inserire nel campo",
+        "group": 10
+    },
+    {
+        "id": 39,
+        "nome": "flag",
+        "descrizione": " ",
+        "acronimo": "FLG_",
+        "nota": "variabile che può assumere solo due stati e che segnala, \"group\": con il suo valore, se un dato evento si è verificato oppure no, o se il sistema è in un certo stato oppure no",
+        "group": 11
+    },
+    {
+        "id": 40,
+        "nome": "cap_estero",
+        "descrizione": " ",
+        "acronimo": "CPE_",
+        "nota": "codice di avviamento postale di uno stato estero",
+        "group": 6
+    },
+    {
+        "id": 41,
+        "nome": "sigla_nazione",
+        "descrizione": " ",
+        "acronimo": "SNZ_",
+        "nota": "codice alfanumerico composto da un massimo di tre caratteri che identifica una nazione",
+        "group": 6
+    },
+    {
+        "id": 42,
+        "nome": "abi",
+        "descrizione": " ",
+        "acronimo": "ABI_",
+        "nota": "associazione bancaria italiana: codice che si compone di cinque caratteri alfanumerici. Serve a identificare la banca presso la quale risiede un conto corrente",
+        "group": 12
+    },
+    {
+        "id": 43,
+        "nome": "cab",
+        "descrizione": " ",
+        "acronimo": "CAB_",
+        "nota": "codice di avviamento Bancario: formato da cinque caratteri numerici. Serve a individuare univocamente la filiale del gruppo bancario identificato dall\"ABI",
+        "group": 12
+    },
+    {
+        "id": 44,
+        "nome": "cin",
+        "descrizione": " ",
+        "acronimo": "CIN_",
+        "nota": "control Internal Number: codice usato da carattere di controllo e si compone di una sola lettera. Si ricava a partire dai codici ABI e CAB e dal numero di conto corrente attraverso un algoritmo",
+        "group": 12
+    },
+    {
+        "id": 45,
+        "nome": "sia",
+        "descrizione": " ",
+        "acronimo": "SIA_",
+        "nota": "codice identificativo di cinque caratteri, \"group\": lettere e numeri che rende unica la partita iva o il codice fiscale nella Rete Nazionale Interbancaria.",
+        "group": 12
+    },
+    {
+        "id": 46,
+        "nome": "cc_bancario",
+        "descrizione": " ",
+        "acronimo": "CCB_",
+        "nota": "conto corrente bancario",
+        "group": 12
+    },
+    {
+        "id": 47,
+        "nome": "cc_postale",
+        "descrizione": " ",
+        "acronimo": "CCP_",
+        "nota": "conto corrente postale",
+        "group": 12
+    },
+    {
+        "id": 48,
+        "nome": "orario",
+        "descrizione": " ",
+        "acronimo": "ORR_",
+        "nota": "orario (oo:mm)",
+        "group": 8
+    },
+    {
+        "id": 50,
+        "nome": "url",
+        "descrizione": " ",
+        "acronimo": "URL_",
+        "nota": "uniform Resource Locator: sequenza di caratteri che identifica univocamente l\"indirizzo di una risorsa in Internet",
+        "group": 10
+    },
+    {
+        "id": 53,
+        "nome": "tabella_memoria",
+        "descrizione": " ",
+        "acronimo": "TAM_",
+        "nota": " ",
+        "group": 11
+    },
+    {
+        "id": 55,
+        "nome": "mk",
+        "descrizione": " ",
+        "acronimo": "MK_",
+        "nota": "master key: chiave di collegamento tra una tabella corpo a una tabella testa",
+        "group": 4
+    },
+    {
+        "id": 56,
+        "nome": "ck",
+        "descrizione": " ",
+        "acronimo": "CK_",
+        "nota": "code key: chiave di collegamento a una tabella di codici",
+        "group": 4
+    },
+    {
+        "id": 57,
+        "nome": "ek",
+        "descrizione": " ",
+        "acronimo": "EK_",
+        "nota": "external key: come fk collega una testa ma in questo caso la testa di una altra procedura",
+        "group": 4
+    },
+    {
+        "id": 58,
+        "nome": "dsk",
+        "descrizione": " ",
+        "acronimo": "DSK_",
+        "nota": "document server key: chiave logica di collegamento dei documenti storicizzati nel document server (non è un serial)",
+        "group": 4
+    },
+    {
+        "id": 59,
+        "nome": "acronimo",
+        "descrizione": " ",
+        "acronimo": "ACR_",
+        "nota": "parola formata con una o più lettere iniziali di altre parole. Può essere usato anche come sigla",
+        "group": 1
+    },
+    {
+        "id": 60,
+        "nome": "cognome_nome",
+        "descrizione": " ",
+        "acronimo": "CNM_",
+        "nota": "cognome e nome",
+        "group": 5
+    },
+    {
+        "id": 61,
+        "nome": "denominaz",
+        "descrizione": " ",
+        "acronimo": "DNM_",
+        "nota": "nome di un ente o di un ufficio, \"group\": sinonimo di ragione sociale",
+        "group": 5
+    },
+    {
+        "id": 62,
+        "nome": "sigla_nazione_iso",
+        "descrizione": " ",
+        "acronimo": "SN2_",
+        "nota": "serve per la classificazione ISO 3066",
+        "group": 6
+    },
+    {
+        "id": 63,
+        "nome": "ora",
+        "descrizione": " ",
+        "acronimo": "ORA_",
+        "nota": "ora nel formato 24 ore",
+        "group": 8
+    },
+    {
+        "id": 64,
+        "nome": "orario_oms",
+        "descrizione": " ",
+        "acronimo": "OR1_",
+        "nota": "orario (oo:mm:ss)",
+        "group": 8
+    },
+    {
+        "id": 65,
+        "nome": "orario_ms",
+        "descrizione": " ",
+        "acronimo": "OR2_",
+        "nota": "orario (mm:ss)",
+        "group": 8
+    },
+    {
+        "id": 72,
+        "nome": "data_6",
+        "descrizione": " ",
+        "acronimo": "DT6_",
+        "nota": "data da 6 (gg/mm/aa)",
+        "group": 8
+    },
+    {
+        "id": 73,
+        "nome": "data_7",
+        "descrizione": " ",
+        "acronimo": "DT7_",
+        "nota": "data da 7 (gg/mm/aaa)",
+        "group": 8
+    },
+    {
+        "id": 74,
+        "nome": "iban",
+        "descrizione": " ",
+        "acronimo": "IBN_",
+        "nota": "international bank account number: standard internazionale utilizzato per identificare un\"utenza bancaria",
+        "group": 12
+    },
+    {
+        "id": 75,
+        "nome": "nota",
+        "descrizione": " ",
+        "acronimo": "NOT_",
+        "nota": "annotazione",
+        "group": 10
+    },
+    {
+        "id": 76,
+        "nome": "numerico_punti",
+        "descrizione": " ",
+        "acronimo": "NMP_",
+        "nota": "un campo numerico con punti diverso da quello di tipo percentuale",
+        "group": 7
+    },
+    {
+        "id": 77,
+        "nome": "codice_bic_swift",
+        "descrizione": " ",
+        "acronimo": "BIC_",
+        "nota": "BIC (Bank Identifier Code) o SWIFT (Worldwide Interbank Financial Telecommunication) è un codice utilizzato nei pagamenti internazionali per identificare la Banca del beneficiario secondo lo standard",
+        "group": 12
+    },
+    {
+        "id": 82,
+        "nome": "tempo",
+        "descrizione": " ",
+        "acronimo": "TMP_",
+        "nota": "campo necessario per fare i conteggi (nelle timbrature, \"group\": per esempio)",
+        "group": 9
+    },
+    {
+        "id": 83,
+        "nome": "ek_provincia",
+        "descrizione": " ",
+        "acronimo": "EKP_",
+        "nota": "chiave esterna di collegamento alla provincia",
+        "group": 4
+    },
+    {
+        "id": 84,
+        "nome": "ek_nazione",
+        "descrizione": " ",
+        "acronimo": "EKN_",
+        "nota": "chiave esterna di collegamento a gt per leggere la nazione",
+        "group": 4
+    },
+    {
+        "id": 85,
+        "nome": "ek_regione",
+        "descrizione": " ",
+        "acronimo": "EKR_",
+        "nota": "chiave esterna di collegamento con gt, \"group\": lettura della regione",
+        "group": 4
+    },
+    {
+        "id": 86,
+        "nome": "ek_comune",
+        "descrizione": " ",
+        "acronimo": "EKC_",
+        "nota": "chiave esterna di collegamento a gt, \"group\": lettura del codice comune",
+        "group": 4
+    },
+    {
+        "id": 87,
+        "nome": "ek_operatore",
+        "descrizione": " ",
+        "acronimo": "EKO_",
+        "nota": "chiave esterna di collegamento alla tabella degli operatori (dodipop)",
+        "group": 4
+    },
+    {
+        "id": 88,
+        "nome": "ek_località",
+        "descrizione": " ",
+        "acronimo": "EKL_",
+        "nota": "chiave esterna di collegamento alla tabella delle località di gt",
+        "group": 4
+    },
+    {
+        "id": 89,
+        "nome": "codice_catasto",
+        "descrizione": " ",
+        "acronimo": "CAT_",
+        "nota": "codice alfanumerico che identifica il comune titolare della fornitura catastale, \"group\": detto anche codice BelfiorI",
+        "group": 6
+    },
+    {
+        "id": 90,
+        "nome": "codice_a1",
+        "descrizione": " ",
+        "acronimo": "CA1_",
+        "nota": "campo alfanumerico da 1 carattere",
+        "group": 1
+    },
+    {
+        "id": 91,
+        "nome": "decimale",
+        "descrizione": " ",
+        "acronimo": "DEC_",
+        "nota": "campo numerico con max 6 cifre dopo la virgola",
+        "group": 7
+    },
+    {
+        "id": 92,
+        "nome": "dfk",
+        "descrizione": " ",
+        "acronimo": "DFK_",
+        "nota": "chiave codifica firma digitale",
+        "group": 4
+    },
+    {
+        "id": 94,
+        "nome": "path",
+        "descrizione": " ",
+        "acronimo": "PTH_",
+        "nota": "Un percorso (in lingua inglese path o pathname). In informatica indica la posizione di file e directory presenti all\"interno della gerarchia di un file system.",
+        "group": 10
+    },
+    {
+        "id": 95,
+        "nome": "descrizione_lunga",
+        "descrizione": " ",
+        "acronimo": "DSL_",
+        "nota": "descrizione lunga",
+        "group": 1
+    },
+    {
+        "id": 96,
+        "nome": "posa3d",
+        "descrizione": " ",
+        "acronimo": "POS_",
+        "nota": "rappresentazione di una trasformazione 3D rigida",
+        "group": 14
+    },
+    {
+        "id": 97,
+        "nome": "regione2drettangolare",
+        "descrizione": " ",
+        "acronimo": "R2R_",
+        "nota": "regione 2D di forma rettangolare non orientata e identificata mediante i due punti corrispondenti all\"angolo superiore sinistro e all\"anglo inferiore destro",
+        "group": 14
+    },
+    {
+        "id": 98,
+        "nome": "regione3drettangolare",
+        "descrizione": " ",
+        "acronimo": "R3R_",
+        "nota": "regione 3D a forma di parallelepipedo descritta da angolo superiore sinistro, \"group\": angolo inferiore destro e estensione in z (threshold)",
+        "group": 14
+    },
+    {
+        "id": 99,
+        "nome": "regione2dmultipunto",
+        "descrizione": " ",
+        "acronimo": "R2M_",
+        "nota": "regione 2D creata dalla successione di un numero arbitrario di punti",
+        "group": 14
+    },
+    {
+        "id": 100,
+        "nome": "regione3dmultipunto",
+        "descrizione": " ",
+        "acronimo": "R3M_",
+        "nota": "estensione in 3D di regione2Dmultipunto aggiungendo l\"estensione in z (threshold)",
+        "group": 14
+    },
+    {
+        "id": 105,
+        "nome": "sez",
+        "descrizione": " ",
+        "acronimo": "SEZ_",
+        "nota": "Sezione",
+        "group": 13
+    },
+    {
+        "id": 106,
+        "nome": "fgl",
+        "descrizione": " ",
+        "acronimo": "FGL_",
+        "nota": "Foglio",
+        "group": 13
+    },
+    {
+        "id": 107,
+        "nome": "map",
+        "descrizione": " ",
+        "acronimo": "MAP_",
+        "nota": "Mappale",
+        "group": 13
+    },
+    {
+        "id": 108,
+        "nome": "sub",
+        "descrizione": " ",
+        "acronimo": "SUB_",
+        "nota": "che sta per subalterno",
+        "group": 13
+    },
+    {
+        "id": 110,
+        "nome": "iban_estero",
+        "descrizione": " ",
+        "acronimo": "IBE_",
+        "nota": "international bank account number: standard internazionale utilizzato per identificare un\"utenza bancaria",
+        "group": 12
+    },
+    {
+        "id": 111,
+        "nome": "cogn_nome_anpr",
+        "descrizione": " ",
+        "acronimo": "CGN_",
+        "nota": "Cognome e/o nome indicati secondo la sintassi accettata da ANPR (vengono eseguiti controlli formali sul contenuto)",
+        "group": 5
+    },
+    {
+        "id": 112,
+        "nome": "denom_convivenza",
+        "descrizione": " ",
+        "acronimo": "DEN_",
+        "nota": "Denominazione convivenza per ANPR. Vengono eseguiti controlli formali sul contenuto",
+        "group": 5
+    },
+    {
+        "id": 113,
+        "nome": "descrizione_2",
+        "descrizione": " ",
+        "acronimo": "DER_",
+        "nota": "descrizione per testo",
+        "group": 1
+    }
+]
